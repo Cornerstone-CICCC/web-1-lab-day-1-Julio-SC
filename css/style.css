@@ -2,3 +2,69 @@ main,
 footer {
   display: flex;
 }
+
+.container {
+  background-color: cyan;
+  width: 1450px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(18, 1, 58);
+}
+
+.sidebar {
+  background-color: yellow;
+  color: blue;
+  text-align: center;
+}
+
+
+.sidebar ul > li::marker {
+  color: black;
+}
+
+.content {
+  background-color: rgb(4, 255, 255);
+}
+
+.content img {
+  width: 800px;
+}
+
+#about + p {
+background-color: black;
+color: white;
+
+}
+
+#services + p {
+  background-color: rgb(2, 112, 2);
+  color: white;
+}
+
+content ul:first-of-type {
+  list-style: circle;
+
+}
+
+#services + p + ul > li:nth-child(even) {
+  color: red;
+}
+
+#contact ~ ul a{
+  color: red;
+}
+
+footer > div:nth-child(1) {
+  background-color: rgb(247, 163, 177);
+}
+
+footer > div:nth-child(2) {
+  background-color: rgb(109, 0, 0);
+}
+
+footer > div:nth-child(3) {
+background-color: rgb(177, 98, 177);
+}
